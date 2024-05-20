@@ -103,10 +103,7 @@ body {
     align-items: center;
 }
 
-/****.page-header{
-    padding-top:16px;
-    padding-bottom: 16px;
-}***/
+
 @media screen and (min-width: 768px) {
   .page-logo { 
     margin-right: 120px;
@@ -346,7 +343,7 @@ color: #404bbf;
     margin-left: auto;
     margin-right: auto;
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bgmobile.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mob.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -401,7 +398,7 @@ color: #404bbf;
     max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bgtablete.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-tab.jpg);
         }
     .hero-container{
             padding-left: 136px;
@@ -428,7 +425,7 @@ color: #404bbf;
             margin-right: auto;
             padding: 188px 0px;
             background-color: #2e2f42;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-desk.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -1006,8 +1003,8 @@ position:absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
-width: 408px;
-min-height: 584px;
+width: 288px;
+min-height: 623px;
 border-radius: 4px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 background: #fcfcfc;
@@ -1209,3 +1206,17 @@ margin: 0 auto;
  background: #404bbf;
 }
 
+
+@media screen and (min-width: 768px){
+  .modal{
+     width: 408px;
+    min-height: 584px;
+ }
+            
+@media screen and (min-width: 1158px){
+  .modal{
+     width: 408px;
+    min-height: 584px;
+   
+    }
+  }
